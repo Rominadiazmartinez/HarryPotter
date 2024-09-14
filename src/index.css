@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("./assets/fonts/font.css");
+
+
+@layer base{
+    @font-face {
+        font-family: "harryPotter";
+        src: url("../src/assets/fonts/HARRYP.TTF") format("truetype");
+    }
+}
+ 
+body {
+     /* background-image: url('../public/img/background9.jpg'); */
+     background-color: rgb(224, 221, 221);
+    background-size: cover;
+    background-size: contain;
+    /* background-repeat: no-repeat;  */
+    /* background-position: center; */
+    color: #765555;
+}
+
+
